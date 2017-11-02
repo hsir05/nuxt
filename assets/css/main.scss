@@ -1,0 +1,38 @@
+@charset 'utf8';
+
+a{
+    text-decoration: none;
+
+}
+ul{
+    list-style: none;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .btn{
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+      width: 100px;
+      height: 30px;
+      line-height: 27px;
+      border: 1px solid #e5e5e5;
+      margin: 10px;
+      border-radius: 10px;
+      background: skyblue;  
+      color: white;
+      font-size: 16px;
+    }
+  }
+p{
+    text-align: center;
+    margin: 30px auto;
+    font-size: 38px;
+}
+h2 {
+    @extend p
+}
