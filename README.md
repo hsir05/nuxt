@@ -1,4 +1,4 @@
-# qdjl-h5
+# nuxt template
 
 > Nuxt.js project
 
